@@ -1,4 +1,5 @@
 CREATE TABLE titles (
   id SERIAL PRIMARY KEY,
-  title text
+  title text,
+  class_category text,
 )
