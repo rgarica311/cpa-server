@@ -6,8 +6,8 @@ const helmet = require('helmet');
 const {NODE_ENV} = require('./config');
 
 const navRouter = require('./nav-router');
-const classDescRouter = require('./class-desc-router')
-const titlesRouter = require('./titles-router')
+const classDescRouter = require('./class-desc-router');
+const titlesRouter = require('./titles-router');
 
 const app = express();
 
